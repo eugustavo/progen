@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Project created from the CLI</Text>
-      <Text style={styles.codeStyle}>npm init @eugustavo/progen</Text>
+      <Text style={styles.codeStyle}>npx @eugustavo/progen</Text>
       <StatusBar barStyle="light-content" translucent />
     </View>
   );
