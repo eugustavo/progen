@@ -59,8 +59,8 @@ async function configProject(options) {
     const appJsonPath = `${options.targetDirectory}/${options.name}/app.json`;
     const appJSON = safeParseJson(fs.readFileSync(appJsonPath).toString());
 
-    appJSON.name = options.name;
-    appJSON.slug = options.name;
+    appJSON.expo.name = options.name;
+    appJSON.expo.slug = options.name;
     fs.writeFileSync(appJsonPath, JSON.stringify(appJSON, null, 2));
   }
 

@@ -1,6 +1,6 @@
 {
   "name": "@eugustavo/progen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A CLI to generate typescript projects",
   "main": "src/index.js",
   "bin": {
