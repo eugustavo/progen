@@ -1,3 +1,0 @@
-Projeto criado com sucesso!
-
-Web > ViteJS
