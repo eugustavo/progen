@@ -59,7 +59,7 @@ async function promptForMissingOptions(options) {
     whatProject.push({
       type: 'list',
       name: 'project',
-      message: 'Please choose one of the platforms',
+      message: 'Please choose one of the technologies',
       choices: ['React', 'React Native', 'NodeJS'],
       default: 'React',
     })
@@ -85,7 +85,7 @@ async function promptForMissingOptions(options) {
     questions.push({
       type: 'list',
       name: 'typeProject',
-      message: 'Please choose one of the frameworks',
+      message: 'Choose the framework you want to use',
       choices: typeProjectChoices,
       default: typeProjectChoices[0],
     })
