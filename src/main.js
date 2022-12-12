@@ -125,7 +125,7 @@ export async function createProject(options) {
 
   await tasks.run();
 
-  console.log(`%s ${chalk.green.bold('Your project is ready!')}\n`, chalk.green.bold('\n✅'));
+  console.log(`%s ${chalk.green.bold('Your project is ready!')}\n`, chalk.green.bold('\n✅ '));
   console.log(`%s To run your project, navigate to the directory and run one of the following npm commands.\n - ${chalk.white.bold(`cd ${options.name}`)}\n - ${chalk.white.bold(`npm start`)}`, chalk.green.bold('Next Steps 👇 \n'));
   return true;
 }
